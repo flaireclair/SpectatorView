@@ -4,5 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/MixedReality-SpectatorView/SpectatorView/Scenes/SpectatorView.HoloLens.unity
+    guid: aaaef5009f203534696f812a2010313e
+  m_configObjects:
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: a19ab487c95827d478fcc8127a89dc0d,
+      type: 2}
+    com.unity.xr.arkit.PlayerSettings: {fileID: 11400000, guid: 84a97cdfe7b6fb84b973972db9ab0d8a,
+      type: 2}
